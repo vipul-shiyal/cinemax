@@ -1,0 +1,19 @@
+@import "../../styles//variable";
+
+.carousel-wrapper {
+  width: 403px !important;
+  // display: flex;
+  .carousel {
+    color: $text-primary;
+
+    width: 26rem !important;
+    padding: 2.4rem 1rem;
+    text-align: left;
+    margin-top: 2.4rem;
+    // line-height: 1.6rem;
+  }
+  .carosel-content {
+    font-weight: 700;
+    font-size: 2rem;
+  }
+}

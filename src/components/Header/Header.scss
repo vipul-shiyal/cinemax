@@ -1,0 +1,88 @@
+@import "../../styles//variable";
+
+.header-container {
+  color: $text-primary;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1.5fr 5fr 1.5fr;
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .header-logo-text {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 28px;
+      text-align: center;
+    }
+  }
+  .header-menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    .header-menu {
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      > li {
+        cursor: pointer;
+      }
+    }
+    .searchIcon {
+      width: 21px;
+      height: 21px;
+    }
+  }
+  .right-aside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .subscribe-btn {
+      //styleName: Medium/SemiBold;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      color: $text-primary;
+      text-align: center;
+
+      width: 128px;
+      height: 40px;
+      padding: 8px, 24px;
+      background-color: $primary-color;
+      border-radius: 24px;
+      border: 0;
+    }
+    .notification {
+      // background-color: red;
+      display: flex;
+      align-items: center;
+      position: relative;
+      &-icon {
+        width: 18px;
+        height: 18px;
+      }
+      &-counter {
+        width: 18px;
+        height: 18px;
+        background-color: $background-red;
+        color: $text-primary;
+        border-radius: 50%;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .profile-image {
+      display: flex;
+    }
+  }
+}

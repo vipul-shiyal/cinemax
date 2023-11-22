@@ -1,0 +1,21 @@
+@import "../../../styles/variable";
+.left-section-container {
+  .menu-heading {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .menu-content {
+    display: flex;
+    padding: 10px 0;
+    .menu-icon {
+      margin-right: 10px;
+    }
+    .menu-selected {
+      font-weight: 600;
+      color: $text-primary;
+    }
+  }
+  .second-heading {
+    margin-top: 20px;
+  }
+}

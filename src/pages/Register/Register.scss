@@ -1,0 +1,114 @@
+@import "../../styles//variable";
+
+.register-section {
+  color: $text-primary;
+  text-align: center;
+
+  //used for image proper set in page
+  overflow: hidden;
+  height: 100vh;
+
+  /* Login screen left side section   */
+  &-left {
+    background-color: $primary-color;
+    // height: 100vh;
+    .register-carousel {
+      color: $text-primary;
+      width: 260px !important;
+      padding: 24px 10px;
+      text-align: left;
+      margin-top: 2.4rem;
+      // line-height: 1.6rem;
+    }
+    .carosel-content {
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .register-img {
+      margin-top: 20px;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      // background-color: aqua;
+      // img {
+      //   left: 75px;
+      //   // width: 100%;
+      //   position: absolute;
+
+      //   // height: 26rem;
+      // }
+      background: url("../../assets/images/register.png"),
+        lightgray 0px 0px / 100% 100% no-repeat;
+      width: 1046.126px;
+      height: 874.089px;
+      flex-shrink: 0;
+      background-color: transparent;
+    }
+  }
+  /* Login screen right side section   */
+  &-right {
+    background-color: $secondary-color;
+    // height: 100vh;
+    display: flex;
+    justify-content: center;
+    .right-container {
+      width: 500px;
+      // width: 40%;
+      margin-top: 20px;
+      display: inline-flex;
+      flex-direction: column;
+      gap: 80px;
+    }
+    .register-title {
+      // margin: 80px 0;
+      // display: flex;
+      // justify-content: center;
+      // flex-direction: column;
+      font-family: Inter;
+      font-size: 32px;
+      letter-spacing: 0.16px;
+    }
+
+    /* Register Input Form   */
+
+    .register-form {
+      margin-top: 40px;
+      .ant-form-item-label {
+        > label {
+          font-size: 14px;
+          color: $text-secondary;
+          letter-spacing: 1px;
+          line-height: 24px;
+        }
+      }
+      .ant-input,
+      .ant-input-password {
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: $text-secondary;
+
+        background-color: transparent;
+        border-color: $input-border-color;
+        border-radius: 16px;
+      }
+      .ant-input-password-icon {
+        color: $text-primary;
+      }
+
+      /* login account link */
+
+      .accoutn-text {
+        font-size: 16px;
+        font-weight: 600;
+        color: $text-gray;
+      }
+      .login-link:link,
+      .login-link:visited {
+        margin-left: 5px;
+        color: $primary-color;
+      }
+    }
+  }
+}

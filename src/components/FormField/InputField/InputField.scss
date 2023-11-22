@@ -1,0 +1,13 @@
+@import "../../../styles/variable";
+
+.label-text {
+  margin: 20px 0 14px;
+}
+.input-field {
+  border-radius: 24px;
+  padding: 12px;
+  width: 100%;
+  color: $text-gray;
+  background: #1a161f;
+  border: 2px solid #29282f;
+}

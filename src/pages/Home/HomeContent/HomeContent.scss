@@ -1,0 +1,114 @@
+@import "../../../styles/variable";
+
+.poster-container {
+  position: relative;
+  background-image: url("../../../assets/images/posterImage.png");
+  background-size: cover;
+  height: 366px;
+}
+.posterImage {
+  width: 756px;
+  height: 366px;
+  border-radius: 24px;
+  text-align: center;
+  // border: 1px solid;
+}
+.poster-info-box {
+  position: absolute;
+
+  width: 354px;
+  height: 206px;
+  top: 108px;
+  left: 15px;
+
+  .show-tag {
+    background-color: #4b3e5a;
+    font-size: 12px;
+    line-height: 20px;
+    color: $text-primary;
+    width: 69px;
+    height: 36px;
+    border-radius: 16px;
+    padding: 8px 16px;
+    display: inline-block;
+  }
+  .show-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 10px 0;
+  }
+  .show-desc-point {
+    display: flex;
+    justify-content: space-between;
+    color: $text-gray;
+    li {
+      list-style: disc;
+    }
+  }
+  .show-desc-point li:first-child {
+    list-style: none;
+  }
+  .watch-info {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+
+    .watch-button {
+      font-weight: 600;
+      width: 190px;
+      height: 56px;
+      background-color: $primary-color;
+      border-radius: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      // margin-top: 30px;
+    }
+    .watch-list-box {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      .watch-list {
+        margin-left: 10px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+.componay-logo-section {
+  margin-top: 32px;
+  display: flex;
+  gap: 10px;
+
+  .logo-card {
+    width: 177px;
+    height: 88px;
+    border-radius: 16px;
+    border: 1px solid $input-border-color;
+    // background-color: red;
+    // background-color: #29282f;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-logo {
+      padding: 10px;
+      background-color: #f0141e;
+    }
+  }
+}
+.continue-wationg-sections {
+  margin-top: 24px;
+  .continue-watching-card {
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    img {
+      width: 450px;
+    }
+  }
+}
