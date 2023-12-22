@@ -2,9 +2,9 @@
 
 .poster-container {
   position: relative;
-  background-image: url("../../../assets/images/posterImage.png");
+  // background-image: url("../../../assets/images/posterImage.png");
   background-size: cover;
-  height: 366px;
+  // height: 366px;
 }
 .posterImage {
   width: 756px;
@@ -111,4 +111,164 @@
       width: 450px;
     }
   }
+}
+////
+.continue-watching,
+.film-list {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 24px;
+  font-size: 16px;
+}
+.continue-watching {
+  position: absolute;
+  top: 638px;
+  left: 289px;
+  flex-direction: column;
+  gap: 32px;
+  font-size: 24px;
+}
+.continue-watching1 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 32px;
+}
+.card-film {
+  position: relative;
+  width: 366px;
+  height: 247px;
+  z-index: 0;
+  font-size: 12px;
+  color: #d1d8dd;
+}
+.image-icon,
+.overlay {
+  position: absolute;
+  left: 0;
+  width: 366px;
+}
+.image-icon {
+  top: 0;
+  border-radius: 16px;
+  height: 247px;
+  object-fit: cover;
+}
+.overlay {
+  top: 124px;
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(0deg, rgba(13, 12, 15, 0.8), rgba(13, 12, 15, 0));
+  height: 123px;
+}
+.pause-icon,
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+}
+.video {
+  top: 199px;
+  left: 16px;
+  width: 334px;
+}
+.audio-icon {
+  position: absolute;
+  top: 4px;
+  left: 310px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.video-child {
+  position: absolute;
+  top: 8px;
+  left: 76px;
+  width: 155px;
+  height: 16px;
+}
+.h4,
+.h41 {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: 70.66%;
+  letter-spacing: 0.01em;
+  line-height: 20px;
+  font-weight: 500;
+}
+.h41 {
+  left: 11.98%;
+}
+.title-years {
+  position: absolute;
+  top: 145px;
+  left: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  font-size: 16px;
+  color: #f9f9f9;
+}
+.label-year,
+.the-batman {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 24px;
+}
+.divlabel-year {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #78828a;
+}
+.overlay1 {
+  position: absolute;
+  top: 86px;
+  left: 0;
+  border-radius: 0 0 16px 16px;
+  background: linear-gradient(0deg, rgba(13, 12, 15, 0.8), rgba(13, 12, 15, 0));
+  width: 366px;
+  height: 161px;
+}
+.title-years1 {
+  position: absolute;
+  top: 155px;
+  left: 132px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.pause-icon1 {
+  position: absolute;
+  top: 100px;
+  left: 159px;
+  width: 48px;
+  height: 48px;
+}
+.arrow-right-icon,
+.overlay3 {
+  position: absolute;
+  margin: 0 !important;
+}
+.arrow-right-icon {
+  top: 108px;
+  left: 756px;
+  width: 32px;
+  height: 32px;
+  z-index: 4;
+}
+.overlay3 {
+  top: 0;
+  left: 682px;
+  background: linear-gradient(270deg, #0d0c0f, rgba(13, 12, 15, 0));
+  width: 106px;
+  height: 247px;
+  z-index: 3;
 }

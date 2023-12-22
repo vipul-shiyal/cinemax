@@ -7,14 +7,20 @@
   grid-template-columns: 1.5fr 5fr 1.5fr;
 
   .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 257px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     .header-logo-text {
+      // font-size: 20px;
+      // font-weight: 700;
+      // line-height: 28px;
+      // text-align: center;
+      margin-left: 56px;
       font-size: 20px;
+      font-style: normal;
       font-weight: 700;
       line-height: 28px;
-      text-align: center;
     }
   }
   .header-menu-container {
@@ -59,7 +65,6 @@
       border: 0;
     }
     .notification {
-      // background-color: red;
       display: flex;
       align-items: center;
       position: relative;

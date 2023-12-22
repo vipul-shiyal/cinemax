@@ -11,28 +11,36 @@
   height: 100vh;
 
   .left-section {
-    padding: 30px;
-    // margin: 30px;
-    font-size: 16px;
-    line-height: 24px;
-    color: $text-gray;
-    background-color: $black-light;
+    // padding: 30px;
+    // // margin: 30px;
+    // font-size: 16px;
+    // line-height: 24px;
+    // color: $text-gray;
+    // background-color: $black-light;
 
     width: 257px;
+    min-width: 257px;
+    padding-left: 28px;
+    color: $text-gray;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.08px;
   }
   .main-section {
     margin-left: 30px;
     margin-top: 30px;
+    min-width: 780px;
+    max-width: fit-content;
     // background-color: rgb(216, 218, 211);
-    display: flex;
-    flex-grow: 1;
+    // display: flex;
+    // flex-grow: 1;
     .home-container {
-      flex-grow: 1;
+      // flex-grow: 1;
     }
     //right section style
-    .right-section {
-      width: 350px;
-      // background-color: rgb(213, 209, 132);
-    }
+  }
+  .right-section {
+    width: 362px;
+    padding: 0 30px;
   }
 }

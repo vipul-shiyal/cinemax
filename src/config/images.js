@@ -1,6 +1,6 @@
 export const images = {
   loginPage: require("../assets/images/login.png"),
-  googleIcon: require("../assets/images/googleIcon.svg"),
+  googleIcon: require("../assets/images/googleIcon.svg").default,
   facebookIcon: require("../assets/images/facebookIcon.svg"),
   registerPage: require("../assets/images/register.png"),
   searchIcon: require("../assets/images/searchIcon.svg"),

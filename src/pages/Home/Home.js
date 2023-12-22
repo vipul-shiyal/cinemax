@@ -15,9 +15,9 @@ const Home = () => {
         </div>
         <div className="main-section">
           <HomeContent />
-          <div className="right-section">
-            <RightSections />
-          </div>
+        </div>
+        <div className="right-section">
+          <RightSections />
         </div>
       </div>
     </main>

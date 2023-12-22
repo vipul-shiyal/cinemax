@@ -42,7 +42,7 @@ const Register = () => {
                 </Form>
                 <p className="accoutn-text">
                   Already have an account?
-                  <a href="/login" className="login-link">
+                  <a href="/" className="login-link">
                     Login
                   </a>
                 </p>

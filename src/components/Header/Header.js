@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="header-container">
       <div className="logo-container">
-        <h2 className="header-logo-text">CineMax</h2>
+        <p className="header-logo-text">CineMax</p>
       </div>
 
       <nav className="header-menu-container">
