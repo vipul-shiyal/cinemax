@@ -30,7 +30,8 @@
     .login-img {
       margin-top: 20px;
       // margin-left: 30px;
-      margin-left: -170px;
+      margin-left: 50px;
+      // margin-left: -170px;
       display: flex;
       justify-content: flex-end;
       position: relative;
@@ -52,6 +53,11 @@
 
       //   // height: 26rem;
       // }
+    }
+    @media (min-width: 600px) and (max-width: 1440px) {
+      .login-img {
+        margin-left: -170px;
+      }
     }
   }
   /* Login screen right side section   */

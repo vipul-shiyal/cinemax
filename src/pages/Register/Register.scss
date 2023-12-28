@@ -26,7 +26,8 @@
     }
     .register-img {
       margin-top: 20px;
-      margin-left: -150px;
+      // margin-left: -150px;
+      margin-left: 85px;
       display: flex;
       justify-content: flex-end;
       position: relative;
@@ -44,6 +45,11 @@
       height: 874.089px;
       flex-shrink: 0;
       background-color: transparent;
+    }
+    @media (min-width: 600px) and (max-width: 1440px) {
+      .register-img {
+        margin-left: -150px;
+      }
     }
   }
   /* Login screen right side section   */
